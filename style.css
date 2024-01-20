@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.bg{
+    width: auto;
+    height: 641px;
+    padding: 0%;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+    background-size: fill;
+}
+h1{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 600px;
+    color: white;
+    font-family: 'Grape Nuts', cursive;
+}
+.score{
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+    color: white;
+}
+.num{
+    width: 10px;
+    height: 10px;
+}
+.panda{
+    position: absolute;
+    width: 20px;
+    height: 150px;
+    margin-top: -220px;
+    z-index: 100;
+    visibility: hidden;
+}
+.container{
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 15%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* padding: 19px; */
+    width: 70%;
+    height: 85%;
+    overflow: hidden;
+    z-index: 1;
+    background:url('./grass.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: auto;
+    height: 100%;
+    padding: 5px;
+    margin-left: 60px;
+    z-index: 10;
+}
+.active{
+    transition: 0.10s;
+    transform: translateY(-30px);
+    visibility: visible;
+}
+.notactive{
+    visibility: hidden;
+}
