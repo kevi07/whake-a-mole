@@ -48,7 +48,7 @@ h1{
     height: 85%;
     overflow: hidden;
     z-index: 1;
-    background:url('./images/grass.jpeg');
+    background:url('./images/grass.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
