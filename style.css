@@ -14,14 +14,14 @@
 h1{
     position: absolute;
     margin-top: 1%;
-    margin-left: 600px;
+    margin-left: 10%;
     color: white;
     font-family: 'Grape Nuts', cursive;
 }
 .score{
     float: right;
     margin-right: 150px;
-    margin-top: 30px;
+    margin-top: 25px;
     color: white;
 }
 .num{
@@ -66,4 +66,28 @@ img{
 }
 .notactive{
     visibility: hidden;
+}
+
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        margin-left: 5%;
+        margin-top: 1px;
+        z-index: 100;
+    }
+
+    .score {
+        margin-right: 5%;
+        margin-top: 2px;
+        z-index: 10;
+    }
+
+    .container {
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    img {
+        margin-left: 0;
+    }
 }
